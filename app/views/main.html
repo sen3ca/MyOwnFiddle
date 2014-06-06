@@ -1,0 +1,32 @@
+<header>
+    <a href="javascript: void(0)" ng-click="render()" class="btn btn-block btn-lg btn-primary left">Let's do it</a>
+    Fiddle Rip Off
+</header>
+<main>
+
+    <section id="js"   class="half-height half-width left">
+        <div class="opaqueBackgroundText">JS</div>
+        <textarea></textarea>
+    </section>
+
+    <section id="css"  class="half-height half-width left">
+        <div class="opaqueBackgroundText">CSS</div>
+        <textarea ng-model="css"></textarea>
+    </section>
+    <div class="clear"></div>
+
+    <section id="html" class="half-height half-width left">
+        <div class="opaqueBackgroundText">HTML</div>
+        <textarea ng-model="html"></textarea>
+    </section>
+
+    <section id="render" class="half-height half-width left">
+        <style ng-bind="cssRender"></style>
+        <div class="opaqueBackgroundText">RENDER</div>
+        <span ng-bind-html="htmlRender"></span>
+    </section>
+
+</main>
+<footer>
+    This is just a footer, leave me alone.
+</footer>

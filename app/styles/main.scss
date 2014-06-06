@@ -1,0 +1,76 @@
+html, body, .container {
+  padding: 0;
+  margin:0;
+  height: 100%;
+}
+
+body {
+  margin: 5px;
+}
+
+header {
+  height:10%;
+  padding-right: 20px;
+  font-size: 50px;
+  background-color: #3498DB;
+  color: white;
+  text-align: right;
+  a {
+    margin-top:23px;
+    margin-left:20px;
+  }
+}
+
+main {
+  height: 85%;
+}
+
+footer {
+  height: 5%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.half-width {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.full-width {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.half-height {
+  height: 50%;
+}
+
+section {
+  position: relative;
+  border: black 1px solid;
+  textarea {
+    outline: none;
+    height:97%;
+    width:97%;
+    border:0;
+  }
+}
+
+.opaqueBackgroundText{
+  position: absolute;
+  top:20%;
+  width:100%;
+  text-align: center;
+  font-size:50px;
+  opacity:.2;
+}
